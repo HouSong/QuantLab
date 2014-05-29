@@ -4,7 +4,7 @@ import urllib2
 import datetime
 import json
 
-access_token='Hcpfh8Fn6eyQ4753mCxPs'
+access_token='Hcpfh8Fn6eyQa4753mCxPs'
 datetool=datetime.datetime(2014,1,1)
 
 def parse_URL(url):
@@ -35,4 +35,4 @@ def fetch_code(code_name):
         save_to_file(json.loads(http_content), to_file)
 
 if __name__ == '__main__':
-    fetch_code('SH600104')
+    fetch_code('SH600102')
